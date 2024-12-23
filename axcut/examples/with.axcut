@@ -1,0 +1,13 @@
+(import lit_7 () (ext Int))
+(import restart ())
+(import return (ext Int))
+
+(signature With (ext Int) (ext Int))
+
+(define main () ()
+  (do (x) extern lit_7 ())
+  (new w With ()
+    ((y) (extern restart ()))
+    ((z) (extern return (z))))
+  (invoke w 1)
+)

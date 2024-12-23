@@ -1,0 +1,19 @@
+(import lit_2 () (ext Int))
+(import lit_4 () (ext Int))
+(import lit_7 () (ext Int))
+(import add (ext Int ext Int) (ext Int))
+(import return (ext Int))
+
+(signature Pair (ext Int ext Int))
+
+(define main () ()
+  (do (y) extern lit_4 ())
+  (do (x) extern lit_2 ())
+  (let p Pair 0 (x y))
+  (switch p
+    ((a b)
+      (do (z) extern lit_7 ())
+      (do (c) extern add (a z))
+      (extern return (c)))
+  )
+)

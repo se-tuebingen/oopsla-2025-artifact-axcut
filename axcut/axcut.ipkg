@@ -1,0 +1,38 @@
+package axcut
+
+sourcedir =
+  "source"
+
+modules =
+  Main,
+  Types,
+  Reader,
+  Tree,
+  Parser,
+  Syntax,
+  Namer,
+  Named,
+  Typer,
+  Typed,
+  Semantics,
+  AARCH64.Limited,
+  AARCH64.Limiter,
+  AARCH64.Coder,
+  AARCH64.Substitution,
+  AARCH64.Code,
+  AARCH64.Hardware,
+  RISCV.Limited,
+  RISCV.Limiter,
+  RISCV.Coder,
+  RISCV.Substitution,
+  RISCV.Code,
+  RISCV.Hardware,
+  X86_64.Limited,
+  X86_64.Limiter,
+  X86_64.Coder,
+  X86_64.Code,
+  X86_64.Substitution,
+  X86_64.Hardware
+
+depends =
+  base

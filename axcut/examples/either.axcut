@@ -1,0 +1,20 @@
+(import lit_1 () (ext Int))
+(import lit_9 () (ext Int))
+(import add (ext Int ext Int) (ext Int))
+(import restart ())
+(import return (ext Int))
+
+(signature Either (ext Int) (ext Int))
+
+(define main () ()
+  (do (z) extern lit_1 ())
+  (do (x) extern lit_9 ())
+  (let p Either 1 (x))
+  (switch p
+    ((a)
+      (extern restart ()))
+    ((b)
+      (do (c) extern add (b z))
+      (extern return (c)))
+  )
+)
