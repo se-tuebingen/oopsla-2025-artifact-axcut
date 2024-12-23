@@ -116,7 +116,8 @@ s ::= (jump l)
 ```
 
 In `substitute`, the length of the two `args`s has to match.
-In `let` and `invoke`, the `n` is the position of the constructor/destructor in the signatur of `T`.
+In `let` and `invoke`, the `n` is the position of the constructor/destructor in the signature of `T`.
+
 `brs` is a list of branches
 
 ```
@@ -151,9 +152,9 @@ build/exec/axcutc path/to/program
 
 where the program is named `program.axcut`.
 This generates files `program.BACKEND.asm` in the directory where the source program is located, where `BACKEND` is one of
-- aarch64
-- riscv
-- x86
+- `aarch64`
+- `riscv`
+- `x86`
 
 To create a binary from the x86-64 assembly code, assemble it with
 

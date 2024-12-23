@@ -23,7 +23,7 @@ Hence, adapting the compiler for reuse likely requires substantial effort.
 
 The artifact will not work out of the box on arm-based architechtures.
 The Dockerfile might be made to work by changing `amd64` to `arm64` in the `Dockerfile` (this was not tested properly).
-The compilation of AxCut programs has to be adapted as well (also in the [benchmark `Makefile`](./benchmarks-programs/Makefile)).
+The compilation of AxCut programs has to be adapted as well (also in the [benchmark `Makefile`](./benchmark-programs/Makefile)).
 Instead of assembling with `nasm`, one has to use an appropriate assembler such as GNU `as`:
 
 ```

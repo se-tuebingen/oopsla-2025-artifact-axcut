@@ -1,4 +1,4 @@
-|                       | Mean time in ms (standard deviation in ms)                                                |||||||
+### Mean time in ms (standard deviation in ms)
 | **Benchmark (N)**     | **AxCut** | **MLton** | **OCaml**   | **Koka**   | **Koka (Opt)** | **Rust**   | **Rust (Opt)** |
 |-----------------------|-----------|-----------|-------------|------------|----------------|------------|----------------|
 | Factorial Acc. (10M)  | 52 (±2)   | 53 (±3)   | 47 (±3)     | 52 (±2)    | 54 (±3)        | 55 (±2)    | 39 (±5)        |

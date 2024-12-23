@@ -5,14 +5,14 @@ There is ashort description for each benchmark in the [`descriptions` directory]
 The results are in the directory [`results`](./results) and the source code for each language is in the directory with the corresponding name.
 For AxCut we have included the source code together with the assembly code for x86-64 that we have generated.
 
-The benchmarks programs can be tested by running
+The benchmark programs can be tested by running
 
 ```
 make test
 ```
 
 given that all languages as well as `hyperfine` are installed.
-For AxCut, gcc and nasm are required.
+For AxCut, `gcc` and `nasm` are required.
 
 The benchmarks can be run with
 

@@ -37,6 +37,7 @@ and `PROG` is one of
 - `match_options`
 - `lookup_tree`
 - `erase_unused`
+
 For comparison, the raw results from the paper are contained in the `benchmark-programs/results` directory.
 While the numbers of the benchmarks can vary due the virtualization overhead of Docker, the relative results shown in Table 1 in the paper should still be mostly visible.
 
@@ -78,9 +79,9 @@ build/exec/axcutc examples/sum_range
 ```
 
 This generates files `sum_range.BACKEND.asm`, where `BACKEND` is one of
-- aarch64
-- riscv
-- x86
+- `aarch64`
+- `riscv`
+- `x86`
 
 To create a binary from the x86-64 assembly code, assemble it with
 
