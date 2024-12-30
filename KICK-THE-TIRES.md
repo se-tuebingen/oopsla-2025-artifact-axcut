@@ -1,6 +1,4 @@
-## Getting Started
-
-### Kick-the-tires
+## Kick-the-tires
 Clone the artifact repository
 
 ```
@@ -48,36 +46,6 @@ docker exec -it axcut-container bash -c "cd axcut && make test"
 ```
 
 This builds the compiler, generates code for a few examples for all backends (aarch64, RISC-V, x86-64) and simulates execution of the generated code.
-
-#### Entering the container
-As an alternative and for further inspection (see [`STEP-BY-STEP.md`](./STEP-BY-STEP.md) guide), the container can be entered with
-
-```
-docker exec -it axcut-container bash
-```
-
-This will start a shell in the `/home/sudouser` directory.
-The benchmark directory can be entered with
-
-```
-cd benchmark-programs
-```
-
-and the directory for the AxCut implementation with
-
-```
-cd axcut
-```
-
-From there the `make test` commands can be run.
-
-The directory for the implementation of the normalization can be entered with
-
-```
-cd normalization
-```
-
-To go one level up in the directory tree, run `cd ..` and to list the structure of the current directory, run `ll`.
 
 ### Cleanup
 Run the following commands (after `exit`ing the interactive session) to remove the docker container and image.

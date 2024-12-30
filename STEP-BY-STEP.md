@@ -1,7 +1,37 @@
 ## Step-By-Step
 
-The [GETTING-STARTED.md](./GETTING-STARTED.md) guide explains how to set up the artifact.
+The [KICK-THE-TIRES.md](./KICK-THE-TIRES.md) guide explains how to set up the artifact.
 Here, we describe in more detail, how the artifact supports the claims.
+
+### Entering the container
+For further inspection, the container can be entered with
+
+```
+docker exec -it axcut-container bash
+```
+
+This will start a shell in the `/home/sudouser` directory.
+The benchmark directory can be entered with
+
+```
+cd benchmark-programs
+```
+
+and the directory for the AxCut implementation with
+
+```
+cd axcut
+```
+
+From there the `make test` commands can be run.
+
+The directory for the implementation of the normalization can be entered with
+
+```
+cd normalization
+```
+
+To go one level up in the directory tree, run `cd ..` and to list the structure of the current directory, run `ll`.
 
 ### Running the benchmarks
 To conduct the benchmarks (described in Section 5.2), run
@@ -48,7 +78,7 @@ We suggest that the reviewers:
    The results from the paper are included in this repository in the file [`results-paper.md`](results-paper.md) as a table with the mean and standard deviation in milliseconds in one column per language.
 
 ### Testing the compiler implementation
-To test the implementation of the compiler for AxCut (described in Section 4), enter the container (as described in the [GETTING-STARTED.md](./GETTING-STARTED.md) guide) and enter the corresponding directory
+To test the implementation of the compiler for AxCut (described in Section 4), enter the container and enter the corresponding directory
 
 ```
 cd axcut

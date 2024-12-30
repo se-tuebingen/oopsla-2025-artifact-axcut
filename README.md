@@ -10,6 +10,10 @@ This GitHub repository constitutes the artifact of our paper
 > Philipp Schuster, Marius Müller, Klaus Ostermann, Jonathan Immanuel Brachthäuser.
 > Conditionally Accepted at OOPSLA 2025.
 
+## Kick-The-Tires
+
+Please see [`KICK-THE-TIRES.md`](./KICK-THE-TIRES.md) for the kick-the-tires phase.
+
 ## Overview
 
 The artifact consists of
@@ -45,6 +49,5 @@ See [`REUSABILITY.md`](./REUSABILITY.md) for some notes on aarch64.
 
 Please find additional instructions in the following two files:
 
-- [`GETTING-STARTED.md`](./GETTING-STARTED.md) for the kick-the-tires phase.
 - [`STEP-BY-STEP.md`](./STEP-BY-STEP.md) for suggestions on how to proceed with the evaluation of the artifact.
 - [`REUSABILITY.md`](./REUSABILITY.md) for information about the reusability of the artifact.
