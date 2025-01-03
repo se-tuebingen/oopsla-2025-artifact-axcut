@@ -1,7 +1,7 @@
 # Benchmark Programs
 
 This directory contains the code for the benchmark programs and the raw results.
-There is ashort description for each benchmark in the [`descriptions` directory](./descriptions).
+There is a short description for each benchmark in the [`descriptions` directory](./descriptions).
 The results are in the directory [`results`](./results) and the source code for each language is in the directory with the corresponding name.
 For AxCut we have included the source code together with the assembly code for x86-64 that we have generated.
 

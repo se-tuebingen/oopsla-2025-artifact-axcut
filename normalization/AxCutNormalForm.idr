@@ -119,7 +119,7 @@ namespace Source
       MuRhsNeg : Command (Lhs (Neg sig) :: xs) -> Term xs (Rhs (Neg sig))
 
     public export
-    data Branch : List ChiralTpe -> (List ChiralTpe) -> Type where
+    data Branch : List ChiralTpe -> List ChiralTpe -> Type where
       Clause : {ps : List ChiralTpe} -> Command (ps ++ xs) -> Branch xs ps
 
 
