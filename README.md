@@ -2,7 +2,7 @@
 
 > **Availability**: Our artifact is available via Zenodo
 
-[![DOI](https://zenodo.org/badge/?????????.svg)](https://zenodo.org/badge/latestdoi/?????????)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14597446.svg)](https://doi.org/10.5281/zenodo.14597446)
 
 This GitHub repository constitutes the artifact of our paper
 
