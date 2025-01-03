@@ -4,7 +4,7 @@ The [KICK-THE-TIRES.md](./KICK-THE-TIRES.md) guide explains how to set up the ar
 Here, we describe in more detail, how the artifact supports the claims.
 
 ### Entering the container
-For further inspection, the container can be entered with
+For later inspection, the container can be entered with (we will indicate in the following sections when the container should be entered)
 
 ```
 docker exec -it axcut-container bash
@@ -34,7 +34,7 @@ cd normalization
 To go one level up in the directory tree, run `cd ..` and to list the structure of the current directory, run `ll`.
 
 ### Running the benchmarks
-To conduct the benchmarks (described in Section 5.2), run
+To conduct the benchmarks (described in Section 5.2) from outside the container, run
 
 ```
 docker exec -it axcut-container bash -c "cd benchmark-programs && make bench && make show"
@@ -141,9 +141,13 @@ We further suggest to generate code for the benchmark programs and confirm that 
 diff examples/PROG.x86.asm ..benchmark-programs/axcut/PROG.x86.asm
 ```
 
+The only difference should be in the paths of the build instructions pasted as a comment at the beginning of the generated assembly file.
+This path depends on the path given to the compiler when generating the code.
+
 ### Confirming the correctness of theorems
 The correctness of the typeability preservation of our normalization procedure (described in Section 2.2) and the type safety of AxCut with respect to the abstract machine semantics (stated in Section 3.3) are proven by their intrinsically typed implementations in Idris 2 and totality of the corresponding function.
 
+Enter the container (if you are not inside already).
 For the normalization, enter
 
 ```

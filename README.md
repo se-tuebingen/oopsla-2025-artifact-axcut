@@ -42,7 +42,7 @@ Everything can be run inside this container.
 
 ## Hardware Dependencies
 
-The artifact has been tested on x86-64 with Linux.
+The artifact must be run on **x86-64** and has been tested with Linux.
 See [`REUSABILITY.md`](./REUSABILITY.md) for some notes on aarch64.
 
 ## Additional Instructions

@@ -30,6 +30,6 @@ Instead of assembling with `nasm`, one has to use an appropriate assembler such 
 as -o examples/example_name.aarch64.o examples/example_name.aarch64.asm
 ```
 
-Moreover, for the benchmarks the aarch64 assembly code has to be used of course (after compiling it with the compiler), replacing the one for x86-64.
+Moreover, for the benchmarks the aarch64 assembly code has to be used of course (after generating it with the compiler as described in [STEP-BY-STEP.md](./STEP-BY-STEP.md)), replacing the one for x86-64 in the [directory for axcut programs](./benchmark-programs/axcut).
 However, the aarch64 backend currently only allows 16-bit literals, so the `factorial_accumulator` program in AxCut will not directly work, unless an assembler is used which desugars `MOV` instructions appropriately.
 As a workaround, one can dissect the large magic number in the benchmark program `examples/factorial_accumulator.axcut` into `1000000007 = 1000 * 1000 * 1000 + 7` (in the correct AxCut syntax of course).
