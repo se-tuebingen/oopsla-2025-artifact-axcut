@@ -5,7 +5,7 @@ Clone the artifact repository
 git clone https://github.com/ps-tuebingen/oopsla-2025-artifact-axcut.git
 ```
 
-or download the archive from [Zenodo](https://doi.org/10.5281/zenodo.14597445) and unpack it.
+or download the archive from [Zenodo](https://doi.org/10.5281/zenodo.14598822) and unpack it.
 Change into the resulting directory.
 
 Make sure that the Docker service is running.
