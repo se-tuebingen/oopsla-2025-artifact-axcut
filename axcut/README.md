@@ -132,6 +132,9 @@ Finally, to save some parentheses and ease the representation a bit, there is a 
 
 where `t` is a tree, which is either a name or a parenthesized list of trees `(l)`, and `l1` and `l2` are lists of trees.
 
+One thing to note is that, for technical reasons, variable contexts (`args`) must be written right-to-left, i.e., the first variable in a context is the right-most one.
+This is in contrast to the paper where contexts are written left-to-right.
+
 ## Building
 
 To build the compiler, run
