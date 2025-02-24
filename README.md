@@ -6,9 +6,9 @@
 
 This GitHub repository constitutes the artifact of our paper
 
-> Compiling Classical Sequent Calculus to Stock Hardware: The Duality of Compilation.
-> Philipp Schuster, Marius Müller, Klaus Ostermann, Jonathan Immanuel Brachthäuser.
-> Conditionally Accepted at OOPSLA 2025.
+> Compiling Classical Sequent Calculus to Stock Hardware: The Duality of Compilation.\
+> Philipp Schuster, Marius Müller, Klaus Ostermann, Jonathan Immanuel Brachthäuser.\
+> Accepted at OOPSLA 2025.
 
 ## Kick-The-Tires
 
